@@ -1,0 +1,38 @@
+
+
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+h5{
+  font-family: 'Big Shoulders Display', cursive;
+  color:  hsl(0, 0%, 95%);
+  font-size: 0.9375rem;
+}
+
+#card-main{
+  padding: 7% 15%;
+  font-size: 0.6875rem;
+  font-family:'Lexend Deca', sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+
+
+/* Card one */
+
+.card-one{
+  background-color:  hsl(31, 77%, 52%);
+  }
+
+/* card-two */
+
+.card-two{
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+/* card-three */
+.card-three{
+    background-color:hsl(179, 100%, 13%);
+}
