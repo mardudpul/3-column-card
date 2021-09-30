@@ -1,38 +1,48 @@
-
-
-body{
+body {
   background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
 }
 
-h5{
+h1 {
   font-family: 'Big Shoulders Display', cursive;
-  color:  hsl(0, 0%, 95%);
-  font-size: 0.9375rem;
+  color: hsl(0, 0%, 95%);
+    font-weight: 700;
 }
 
-#card-main{
-  padding: 7% 15%;
-  font-size: 0.6875rem;
-  font-family:'Lexend Deca', sans-serif;
+/* General changes for card */
+
+#card-main {
+  padding: 15% 15%;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
   color: hsl(0, 0%, 95%);
 }
 
+.card-pad-0{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
+
+/* overriding border */
+
+.card-border-0{
+  border: none;
+}
 
 /* Card one */
 
-.card-one{
-  background-color:  hsl(31, 77%, 52%);
-  }
+.card-one {
+  background-color: hsl(31, 77%, 52%);
+}
+
 
 /* card-two */
-
-.card-two{
+.card-two {
   background-color: hsl(184, 100%, 22%);
-
 }
 
 /* card-three */
-.card-three{
-    background-color:hsl(179, 100%, 13%);
+.card-three {
+  background-color: hsl(179, 100%, 13%);
 }
