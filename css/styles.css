@@ -16,6 +16,7 @@ h1 {
 #card-main {
   padding: 15% 15%;
   height: 80px;
+  line-height: 2;
   }
 
 .card-pad-0{
@@ -34,15 +35,30 @@ h1 {
 
 .card-one {
   background-color: hsl(31, 77%, 52%);
-}
+  height: 365px;
+  padding-left: 25px;
+  padding-right: 25px;
+  }
 
 
 /* card-two */
 .card-two {
   background-color: hsl(184, 100%, 22%);
+  height: 365px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* card-three */
 .card-three {
   background-color: hsl(179, 100%, 13%);
+  height: 365px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* Icons */
+
+.icon{
+  padding: 10%;
 }
