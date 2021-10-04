@@ -3,7 +3,7 @@ body {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 11px;
   color: hsl(0, 0%, 95%);
-}
+  }
 
 h1 {
   font-family: 'Big Shoulders Display', cursive;
@@ -13,8 +13,8 @@ h1 {
 
 /* General changes for card */
 
-#card-main {
-  padding: 15% 15%;
+.card-main {
+  padding: 7% 15%;
   height: 80px;
   line-height: 2;
   }
@@ -22,6 +22,11 @@ h1 {
 .card-pad-0{
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.card-text{
+  padding-right: 20%;
+  padding-bottom: 15%;
 }
 
 
@@ -36,7 +41,7 @@ h1 {
 .card-one {
   background-color: hsl(31, 77%, 52%);
   height: 365px;
-  padding-left: 25px;
+  padding-left: 40px;
   padding-right: 25px;
   }
 
@@ -45,7 +50,7 @@ h1 {
 .card-two {
   background-color: hsl(184, 100%, 22%);
   height: 365px;
-  padding-left: 25px;
+  padding-left: 40px;
   padding-right: 25px;
 }
 
@@ -53,12 +58,20 @@ h1 {
 .card-three {
   background-color: hsl(179, 100%, 13%);
   height: 365px;
-  padding-left: 25px;
+  padding-left: 40px;
   padding-right: 25px;
 }
 
 /* Icons */
 
 .icon{
-  padding: 10%;
+  padding: 15px 0px 30px;
 }
+
+/* Attribution */
+
+.attribution{
+  color: #000;
+  text-align: center;
+  padding-top: 3%;
+  }
